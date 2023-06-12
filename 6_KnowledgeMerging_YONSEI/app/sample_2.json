@@ -1,0 +1,41 @@
+{
+  "question": {
+    "text": "데드풀 감독이랑 킬러의 보디가드 감독이 같은 사람이야?",
+    "language": "kr",
+    "domain": "common-sense"
+  },
+  "kg_triples": [
+    [
+      "팀 밀러",
+      "데드풀",
+      "감독"
+    ],
+    [
+      "패트릭 휴스",
+      "킬러의 보디가드",
+      "감독"
+    ],
+    [
+      "패트릭 휴스",
+      "영화 감독",
+      "직업"
+    ]
+  ],
+  "doc_triples": [
+    {
+      "subject": "팀 밀러",
+      "relation": "동료",
+      "object": "패트릭 휴스"
+    },
+    {
+      "subject": "팀 밀러",
+      "relation": "직업",
+      "object": "영화 감독"
+    },
+    {
+      "subject": "subj_1",
+      "relation": "rel_1",
+      "object": "obj_1"
+    }
+  ]
+}
